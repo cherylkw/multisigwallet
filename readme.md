@@ -46,9 +46,9 @@ Copy the MNEMONIC seed to Metamask and connect Metamask as "LocalHost 9545" on t
 
 **Clone the project**
 
-Open up another new terminal, make sure the ganache-cli terminal is running at the same time.
+Open up another new terminal, make sure the development terminal is running at the same time.
 
-1. git clone https://github.com/cherylkw/interbanktransfer.git
+1. git clone https://github.com/cherylkw/multisigwallet.git
 
 2. Move to the directory
     >npm install
@@ -59,7 +59,7 @@ Open up another new terminal, make sure the ganache-cli terminal is running at t
 4. Compile the contracts
     >truffle compile
 
-5.  Migrate to ganache-cli
+5.  Migrate to development enviornment
     >truffle migrate --reset
 
 6. Run tests. (All tests should pass)
@@ -71,7 +71,7 @@ Open up another new terminal, make sure the ganache-cli terminal is running at t
 ## Visiting an URL and interact with the application
 
 - http://localhost:3000/
-- This Dapp requires to interact with MetaMask. When the dapp loaded, MetaMask pop-up will appear if installed properly, requesting your approveal to allow InterBank Transfer Payment Dapp connect to MetaMask wallet. Please choose **Connect**.
+- This Dapp requires to interact with MetaMask. When the dapp loaded, MetaMask pop-up will appear if installed properly, requesting your approveal to allow Dapp connect to MetaMask wallet. Please choose **Connect**.
 
 ### Deploy to Kovan testnet
 
